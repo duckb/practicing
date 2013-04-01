@@ -1,0 +1,138 @@
+html {
+	font-size:14px;
+	font-color:#666;
+	font-family:arial,helvetica,sans-serif;
+}
+body {
+	background:white;
+	/*background: transparent url("images/bg.jpg") top left no-repeat;*/
+}
+
+.error-class {
+	color:red;
+	font-size:18px;
+	font-weight:bold;
+	margin-top:10px ;
+	margin-bottom:10px ;
+}
+.success-class {
+	color:lightgreen;
+	font-size:18px;
+	font-weight:bold;
+	margin-top:10px ;
+	margin-bottom:10px ;
+}
+#container {
+	width:960px;
+	margin:20px auto;
+	
+}
+
+
+ul.menu {
+	height:30px;
+	display:block;
+	margin:0;
+	padding:0;
+}
+ul.menu li {
+	z-index: 2;
+	/*height: 26px;*/
+	float: left;
+	margin: 0 0 0 1px;
+	padding: 8px 25px;
+	position: relative;
+	cursor: pointer;
+	list-style: none;
+	border-radius:.7em .7em 0 0;
+	min-width:30px;
+	font-size: 13px;
+    font-weight: bold;
+	background: linear-gradient(to right, maroon 0%, mediumaquamarine 50%, maroon 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(to right, maroon 0%, mediumaquamarine 50%, maroon 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(to right, maroon 0%, mediumaquamarine 50%, maroon 100%) repeat scroll 0 0 transparent;
+	background: -o-gradient(to right, maroon 0%, mediumaquamarine 50%, maroon 100%) repeat scroll 0 0 transparent;
+	max-width:120px;
+	max-height:16px;
+}
+ul.menu li a {
+	text-decoration:none;
+	cursor:pointer;
+	color:white;
+}
+ul.menu li:hover {
+	background: linear-gradient(to right, orange 0%, maroon 40%, orange 100%) repeat scroll 0 0 transparent;
+}
+ul.menu li:hover a {
+	color:white;
+}
+#main-content {
+	width:990px;
+	float:left;
+	min-height:500px;
+	background:#f1f1f1;
+	padding:20px 30px;
+	box-shadow: 0 1px 1px #A4E388 inset;
+	border-top:5px solid maroon;
+	border-radius: 0 0 1em 1em;
+	box-shadow:0 8px 5px 5px #BE4257;
+	-webkit-box-shadow:0 8px 5px 5px #BE4257;
+	-moz-box-shadow:0 8px 5px 5px #BE4257;
+}
+
+
+.button {
+	color:#ffffff;
+	height:40px;
+	min-width:100px;
+	background:#009999;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+	-opera-border-radius: 15px;
+	border-radius: 15px;
+	cursor:pointer;
+	background: -moz-linear-gradient(center top , #67AE55, #578843) repeat scroll 0 0 #69A74E;
+    border-color: #3B6E22 #3B6E22 #2C5115;
+    box-shadow: 0 1px 1px #A4E388 inset;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.inputtext {
+	border-radius:5px;
+	padding:2px;
+	color:#000;
+	border:none;
+	
+}
+#content-header {
+	font-size:25px;
+	min-height:40px;
+	font-weight:bold;
+	color:maroon;
+	font-family:sarif;
+}
+#row {
+	float:left;
+	min-height:30px;
+	width:100%;
+}
+#row .mandatory-item  {
+	color:red;
+	width:5px;
+	vertical-align: top;
+	float:left;
+}
+#row .label {
+	font-weight:bold;
+	width:175px;
+	vertical-align: top;
+	float:left;
+}
+#row .input-content {
+	width:200px;
+	padding-left:10px;
+	float:left;
+}
+
